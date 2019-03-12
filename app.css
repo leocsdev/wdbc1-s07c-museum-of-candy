@@ -3,22 +3,42 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+/* formats font size and weight of navbar items */
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
 }
 
+/* set navbar font color to white */
 #mainNavbar .nav-link {
   color: white;
 }
 
+/* set navbar font color when hovered */
 #mainNavbar .nav-link:hover {
   color: #ea1c2c;
 }
 
-/** changes the brand */
+/** changes the navbar brand color to red */
 #mainNavbar .navbar-brand {
   color: #ea1c2c; 
+}
+
+/* make / on MUSEUM/OF/CANDY red */
+#headingGroup span {
+  color: #ea1c2c;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
 }
 
 
