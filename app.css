@@ -21,7 +21,8 @@ body {
 
 /** changes the navbar brand color to red */
 #mainNavbar .navbar-brand {
-  color: #ea1c2c; 
+  color: #ea1c2c;
+  font-size: 1.5rem 
 }
 
 /* make / on MUSEUM/OF/CANDY red */
@@ -29,15 +30,15 @@ body {
   color: #ea1c2c;
 }
 
-#headingGroup h1 {
-  font-weight: 100;
-  font-size: 4rem;
+#headingGroup h2 {
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 @media (max-width: 1200px) {
-  #headingGroup h1 {
-    font-weight: 100;
-    font-size: 3rem;
+  #headingGroup h2 {
+    font-weight: 300;
+    font-size: 2rem;
   }
 }
 
